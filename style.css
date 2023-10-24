@@ -1,0 +1,131 @@
+/* style.css */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+.topnav {
+    background-color: #333;
+    overflow: hidden;
+    position: absolute;
+    top: 0px;
+    width: 100%;
+  }
+  
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  /* Add a color to the active/current link */
+  .topnav a.active {
+    background-color: #04AA6D;
+    color: white;
+  }
+/* Styling for the heading */
+h1 { 
+	background-color: #282828; 
+	color: white; 
+	font-size: xx-large; 
+	padding: 0%; 
+    height: 15%;
+    justify-content: center;
+	/* width: 70vh; */
+} 
+
+/* Style for the card and border */
+.card { 
+    background-color: #242424;
+	min-width: 50%; 
+	width: 45%; 
+	min-height: 30%; 
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+	transition: 0.3s; 
+	border-radius: 7px; 
+	margin: auto; 
+	padding: 0%; 
+    color: white;
+    position: absolute;
+    bottom: 60%;
+    border: 1px solid; border-color: #333;
+    border-bottom: 0px;
+} 
+
+/* Font and display style for complete body */
+body { 
+    background-color: #04AA6D;
+	display: flex; 
+	text-align: center; 
+	font-family: "Gill Sans", 
+				"Gill Sans MT", 
+				Calibri, "Trebuchet MS", 
+				sans-serif; 
+     justify-content: center;
+    
+} 
+
+/* Adding style for input box */
+input { 
+	width: 30px; 
+	padding: 1%; 
+	font-size: larger; 
+	text-align: center; 
+	margin-left: 2%; 
+    border-radius: 5px;
+    margin-bottom: 5%;
+} 
+
+/* Adding style for display word*/
+#displayWord { 
+	font-size: xx-large; 
+}
+.spotify {
+    position: absolute;
+    bottom: 20%;
+    height: 30%;
+    width: 50%;
+    margin: auto;
+    border: 1px solid; border-color: #04AA6D;
+    border-top: 0px;
+}
+.buttons button{
+    border: none;
+    outline: none;
+    color: #fff;
+    cursor: pointer;
+    padding: 15px 0;
+    font-size: 17px;
+    border-radius: 5px;
+    width: calc(80% / 2 - 8px);
+    transition: all 0.3s ease;
+  }
+
+  .buttons button:active{
+    transform: scale(0.97);
+  }
+  .buttons .refresh-word{
+    background: #6C757D;
+  }
+  .buttons .refresh-word:hover{
+    background: #5f666d;
+  }
+  .buttons .check-word{
+    background: #5372F0;
+  }
+  .buttons .check-word:hover{
+    background: #2c52ed;
+  }
+
